@@ -1,0 +1,97 @@
+{
+    "rooms": [
+        {
+            "room_id": "1",
+            "room_type": "تک نفره",
+            "price": 5000000,
+            "status": "خالی",
+            "current_guest_id": null
+        },
+        {
+            "room_id": "2",
+            "room_type": "دو نفره",
+            "price": 8000000,
+            "status": "خالی",
+            "current_guest_id": null
+        },
+        {
+            "room_id": "3",
+            "room_type": "سوییت",
+            "price": 12000000,
+            "status": "رزرو شده",
+            "current_guest_id": null
+        },
+        {
+            "room_id": "4",
+            "room_type": "سوییت لوکس",
+            "price": 15000000,
+            "status": "خالی",
+            "current_guest_id": null
+        },
+        {
+            "room_id": "5",
+            "room_type": "تک نفره",
+            "price": 5000000,
+            "status": "اشغال شده",
+            "current_guest_id": "1"
+        }
+    ],
+    "guests": [
+        {
+            "guest_id": "1",
+            "name": "علی",
+            "family": "محمدی",
+            "national_id": "0123456789",
+            "phone": "09123456789",
+            "address": "تهران، خیابان ولیعصر"
+        },
+        {
+            "guest_id": "2",
+            "name": "مریم",
+            "family": "حسینی",
+            "national_id": "9876543210",
+            "phone": "09198765432",
+            "address": "اصفهان، خیابان نظر"
+        },
+        {
+            "guest_id": "3",
+            "name": "رضا",
+            "family": "احمدیان",
+            "national_id": "1122334455",
+            "phone": "09111122334",
+            "address": "شیراز، بلوار چمران"
+        }
+    ],
+    "reservations": [
+        {
+            "reservation_id": "1",
+            "guest_id": "1",
+            "room_id": "5",
+            "check_in_date": "1404-01-01",
+            "check_out_date": "1404-01-05",
+            "status": "فعال",
+            "total_cost": 20000000
+        },
+        {
+            "reservation_id": "2",
+            "guest_id": "2",
+            "room_id": "3",
+            "check_in_date": "1404-01-10",
+            "check_out_date": "1404-01-15",
+            "status": "فعال",
+            "total_cost": 60000000
+        },
+        {
+            "reservation_id": "3",
+            "guest_id": "3",
+            "room_id": "2",
+            "check_in_date": "1403-12-25",
+            "check_out_date": "1403-12-28",
+            "status": "تسویه شده",
+            "total_cost": 24000000
+        }
+    ],
+    "next_room_id": 6,
+    "next_guest_id": 4,
+    "next_reservation_id": 4
+}
